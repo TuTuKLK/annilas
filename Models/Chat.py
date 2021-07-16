@@ -16,9 +16,9 @@ class Chat(Beast):
         Caractère: {self.Caractere}
         Griffe: {self.Griffe}
         Poil: {self.Poil}
-        chanceSurvi: {Beast.Survi(self)}
-        Etat: {Beast.etat(self)}
         """ 
+        # chanceSurvi: {Beast.Survi(self)}
+        # Etat: {Beast.etat(self)}
     # def __str__(self):
     #     return f"""
     #     Nom:{self.Nom} est un {type(self).__name__} {self.Sexe}
